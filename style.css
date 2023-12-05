@@ -1,0 +1,101 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: #1d1d1d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+main {
+    max-width: 800px;
+}
+
+.cool {
+    background: linear-gradient(to bottom, #ffffff, #b4b4b4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+footer {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.highlight {
+    background: linear-gradient(to left, #ff2e63, #ff7a68);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.highlight2 {
+    background: linear-gradient(to left, #206027, #7cff68);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.highlight3 {
+    background: linear-gradient(to left, #29aeff, #68ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.highlight4 {
+    background: linear-gradient(to left, #f8ff29, #fffc68);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .center {
+        margin: 1rem;
+    }
+
+    footer {
+        position: relative;
+    }
+}
